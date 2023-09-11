@@ -1,27 +1,36 @@
-<body>
-<list >
-    <p>List can be nested (list inside list):</p>
-
-    <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <ul>
-            <li>Black Tea</li>
-            <li>Green Tea</li>
-        </ul>
-        <li>Milk</li>
-    </ul>
-    </list>
-</body>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <style>
     body{
-        background-color: rgb(255, 255, 255);
-        width: 270px;
-        height:180px;
-        border: 1px solid rgb(0, 0, 0);
-        padding: 3px;
-        margin: 20px;
-        font-size: larger;
-        }
+    position: calc();
+    width: 230px;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 2px;
+}
 </style>
+
+<body>
+    
+    <p style="text-align: center;" >List can be nested(list inside list):</p>
+    <ul style="list-style: disc;" >
+        <li>Coffee</li>
+        <li>Tea
+            <ul style="list-style: circle;">
+                <li>Black Tea</li>
+                <li>Green Tea</li>
+            </ul>
+
+        </li>
+
+        <li>Milk</li>
+
+    </ul>
+</body>
+</html>
