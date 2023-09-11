@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 11</title>
+    <style>
+        .main{
+            margin-left: 500px;
+           padding: 20px;
+        }
+        img{
+           border-radius: 60%;
+           background-color: rgb(21, 122, 34);
+           margin-left: 25px;
+        }
+        .pass {
+            font-weight: bold;
+            font-size: large;
+        }
+        .user{
+            font-weight: bold;
+            font-size: large;
+        }
+        .login{
+            background-color: green;
+            width: 27%;
+            padding: 7px;
+        }
+        .cancel{
+            background-color: red;
+        }
+        .forgot{
+            margin-left: 87px ;
+        }
+        .password{
+            width: 25%;
+            padding: 7px;
+        }
+        .username{
+            width: 25%;
+            padding: 7px; 
+        }
+        .avatar {
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <img src="./Avatar.jpeg" alt="Avatar" height="200px" width="200px">
+        <br>
+        <label for="username" class="user">Username</label>
+        <br>
+        <input type="text" class="username">
+        <br>
+        <br>
+        <label for="password" class="pass">Password</label>
+        <br>
+        <input type="password" class="password">
+        <br>
+        <br>
+        <button  type="submit" class="login">Login</button>
+        <br>
+        <br>
+        <label for=""><input type="checkbox">Remember me</label>
+       
+       <br>
+       <br>
+        <div>
+            <button type="reset" class="cancel">Cancel</button>
+            <a href="#" class="forgot">Forgot password?</a>
+        </div>
+    </div>
+</body>
+</html>
